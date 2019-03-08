@@ -1,0 +1,28 @@
+// color
+$color-brand: hsl(17, 98%, 49%);
+$color-brand-dark: hsl(17, 98%, 36%);
+$color-primary: hsl(0, 0%, 13%);
+$color-secondary: hsl(0, 0%, 29%);
+$color-tertiary: hsl(0, 0%, 65%);
+$color-subtle: hsl(0, 0%, 90%);
+
+// font-size
+$font-size: 1.6rem;
+
+// font-family
+$font-family: 'Cairo', sans-serif;
+$font-family-title: 'Cabin Sketch', sans-serif;
+$font-family-brand: 'Contrail One', sans-serif;
+
+// font-weight
+$font-weight-heavy: 700;
+$font-weight: 500;
+$font-weight-light: 300;
+
+// box-shadow
+$box-shadow-dark: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);
+$box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+$box-shadow-light: 0 4px 6px 0 hsla(0, 0%, 0%, 0.05);
+
+$box-shadow-inset-dark: inset 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);
+$box-shadow-inset: inset 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
