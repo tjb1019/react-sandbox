@@ -15,13 +15,15 @@ class Menu extends React.Component {
     alert(`hello, ${name}`);
   };
 
-  render() {
+  render = () => {
     return (
-      <button onClick={() => this.showAlert('tyler')}>
+      <button onClick={() => this.showAlert(this.props.name)}>
         <img src={annLogo} alt="test logo"/>
       </button>
     );
   }
 }
+
+Menu.defaultProps = {name: 'tyler'};
 
 export default Menu;
